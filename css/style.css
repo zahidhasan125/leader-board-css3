@@ -137,3 +137,18 @@ hr{
 
 /* Media Queries */
 
+/* Media Queries for Mobile Devices */
+
+@media screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    
+    .top-players{
+        grid-template-columns: 1fr;
+
+    }
+    .player{
+        flex-direction: column;
+    }
+}
