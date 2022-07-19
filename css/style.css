@@ -114,7 +114,6 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 15px; */
 }
 
 .course-info span {
@@ -167,8 +166,7 @@ hr {
 
     }
 
-    .player,
-    .blog {
+    .player{
         flex-direction: column;
     }
 
@@ -181,12 +179,13 @@ hr {
         width: 100%;
     }
 
-    .blogs {
+    /* .blogs {
         grid-template-columns: 1fr;
-    }
+    } */
 
     .top-players,
-    .lates-courses {
+    .lates-courses,
+    .blogs {
         grid-template-columns: repeat(2, 1fr);
     }
 
