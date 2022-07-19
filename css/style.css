@@ -71,6 +71,7 @@ hr{
 .blog-info{
     margin-left: 16px;
 }
+
 .blog-author{
     color: #9F9F9F;
     font-size: 16px;
@@ -133,3 +134,6 @@ hr{
 .fa-clock{
     margin-right: 6px;
 }
+
+/* Media Queries */
+
